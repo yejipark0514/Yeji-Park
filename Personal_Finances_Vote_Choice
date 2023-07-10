@@ -1,3 +1,4 @@
+#Stata #Supervised_Learning
 cd "C:\Users\박예지\Documents"
 use turnout.dta
 
