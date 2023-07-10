@@ -1,0 +1,167 @@
+cd "C:\Users\박예지\Documents"
+use turnout.dta
+
+
+summarize st_bach_pct, detail
+graph hbox st_bach_pct, title ("Graph 1: Percent of Population with a Bachelor's degree") ytitle ("Percent of Population") scheme(s1color)
+
+label var st_bach_pct "Percent of Population with bachelor's degree"
+
+**creating a binary variable to compare the percent Biden vote in states with education levels above the mean to those below the mean
+gen edu_level =.
+replace edu_level = 0 if st_bach_pct < 27.9
+replace edu_level = 1 if st_bach_pct > 27.9
+label define edu_level 0 "Education levels below average", add
+label define edu_level 1 "Education levels above average", add
+tab edu_level
+
+** Creating new votings measure that calculates the percent of votes that the presidential candidates received in 2020
+gen trump_pct_20 =(trump_vote_20/tot_ballot_ho_20)*100
+gen biden_pct_20 =(biden_vote_20/tot_ballot_ho_20)*100
+
+label var biden_pct_20 "Vote Percentage for Biden"
+
+summarize trump_pct_20
+summarize biden_pct_20, detail
+graph hbox biden_pct_20, title ("Graph 2: Vote Percentage for Biden in 2020") ytitle ("Biden vote (%) 2020") scheme(s1color)
+
+
+**relationship between biden_pct_20 and st_bach_pct
+label var st_bach_pct "Percent of population with college degree"
+label var biden_pct_20 "Biden vote (%) 2020"
+
+scatter biden_pct_20 st_bach_pct, title ("Graph 3: Relationship between Biden vote(2020) and percent of population with college degree"), msymbol(smtriangle) mlabel(stabr) mlabsize(vsmall)
+
+**relationship between trump_pct_20 and st_bach_pct
+label var st_bach_pct "Percent of population with college degree"
+label var trump_pct_20 "Trump vote (%) 2020"
+
+scatter trump_pct_20 st_bach_pct, msymbol(smtriangle) mlabel(stabr) mlabsize(vsmall) 
+
+
+**comparing Biden's voteshare in states with higher levels of education and with lower levels of education
+graph box biden_pct_20, title ("Graph 5: Biden's voteshare by levels of education") ytitle("Biden vote share %") over(edu_level)
+
+**comparing Trump's voteshare in states with higher levels of education and with lower levels of education
+graph box trump_pct_20, title ("Graph 6: Trump's voteshare by levels of education") ytitle("Trump vote share %") over(edu_level)
+
+
+**difference of means test
+ttest biden_pct_20, by(edu_level) welch
+
+gen pres_vote =.
+replace pres_vote = 0 if A02 == 1
+replace pres_vote = 1 if A02 == 2
+replace pres_vote =. if A02 == 3
+replace pres_vote =. if A02 == 9
+label define president 0 "Clinton" 1 "Trump" 
+label values pres_vote president 
+
+tab pres_vote
+
+gen financial_next_year =.
+replace financial_next_year = 0 if F02 == 1 
+replace financial_next_year = 0 if F02 == 2
+replace financial_next_year = 1 if F02 == 4 
+replace financial_next_year = 1 if F02 == 5
+replace financial_next_year =. if F02 == 3 
+replace financial_next_year = . if F02 == 9
+label define condition 0 "Better" 1 "Worse"
+label values financial_next_year condition
+tab financial_next_year
+
+
+**Cross-Tabulation Tables and Measures of Association
+tabulate pres_vote financial_next_year, column chi2
+
+**graphs
+histogram pres_vote, xlabel(0(1)1) width(0.5) xtitle("2016 Presidential Vote") 
+histogram financial_next_year, xlabel(0(1)1) width(0.5) xtitle("Future Expectation of Financial Condition") 
+
+
+**conducting Somers' D test of association (ordinal IV, nominal DV)
+sysdir set PLUS\w
+ssc install somersd
+somersd pres_vote financial_next_year
+
+*DV
+gen pres_vote =.
+replace pres_vote = 0 if A02 == 1
+replace pres_vote = 1 if A02 == 2
+replace pres_vote =. if A02 == 3
+replace pres_vote =. if A02 == 9
+label define president 0 "Clinton" 1 "Trump" 
+label values pres_vote president 
+tab pres_vote	
+
+*Key IV
+gen finances_concern =.
+replace finances_concern = 0 if F03 == 1 
+replace finances_concern = 0 if F03 == 2
+replace finances_concern = 1 if F03 == 3
+replace finances_concern = 2 if F03 == 4
+replace finances_concern = 2 if F03 == 5
+replace finances_concern = . if F03 == 9
+label define concern 0 "Very Worried" 1 "Moderate" 2 "Not much"
+label values finances_concern concern
+tab finances_concern
+
+*control Variables
+gen economy_past =.
+replace economy_past = 0 if F04 == 1 
+replace economy_past = 0 if F04 == 2
+replace economy_past = 1 if F04 == 3
+replace economy_past = 2 if F04 == 4
+replace economy_past = 2 if F04 == 5
+replace economy_past = . if F04 == 9
+label define economy 0 "Better" 1 "Same" 2 "Worse"
+label values economy_past economy
+tab economy_past
+
+gen education =.
+replace education = 0 if R07 == 1 
+replace education = 0 if R07 == 2
+replace education = 1 if R07 == 3
+replace education = 1 if R07 == 4
+replace education = 1 if R07 == 5
+replace education = . if R07 == 9
+label define education 0 "No College" 1 "College" 
+label values education education
+tab education
+
+gen health =.
+replace health = 0 if H11 == 1 
+replace health = 0 if H11 == 2
+replace health = 0 if H11 == 3
+replace health = 1 if H11 == 4
+replace health = 2 if H11 == 5
+replace health = . if H11 == 9
+label define health 0 "Good" 1 "Fair" 2 "Poor"
+label values health health
+tab health
+	
+
+**graphs
+twoway(scatter pres_vote finances_concern [aw=finances_concern], msymbol(circle_hollow) mlabcolor(navy) mcolor(navy%50)scheme(s1color)) (lfit pres_vote finances_concern, lcolor(red)), ytitle("Vote Choice") xtitle("Concern over Personal Finances")legend(off) 
+
+margins, atmeans at(finances_concern=(0(1)2)) 
+marginsplot, scheme(s1color) title(Concern over Personal Finances) 
+
+marginsplot, scheme(s1color)
+
+estimates store m1, title(Concern over Personal Finances)
+
+**margins plot 
+margins, atmeans at(finances_concern=(0(1)2)) 
+marginsplot, scheme(s1color) title(Concern over Personal Finances) 
+
+
+*regression
+regress pres_vote i.finances_concern i.education i.economy_past i.health, allbaselevels
+
+logit pres_vote i.finances_concern i.economy_past i.education i.health, or
+
+pwcorr pres_vote finances_concern
+
+regress pres_vote i.finances_concern i.education i.economy_past i.health, allbaselevels
+vif
