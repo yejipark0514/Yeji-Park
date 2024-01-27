@@ -1,6 +1,6 @@
 HI! I am a data analytics student from Pennsylvania State University. 
 
-Projects 
+*Projects*
 
 Project 1: 유방암 분류 
 
