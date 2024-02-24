@@ -3,17 +3,47 @@
 
 - 🔭 I’m currently working on **CO2 Emissions Trends Forecast**
 
-- 📫 How to reach me **yejipark0514@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+- 📫 Reach me at **yejipark0514@gmail.com**
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> </p>
 
 
-HI! I am a data analytics student from Pennsylvania State University. 
+
+<h2>Data Pre-Processing:</h2>
+
+<strong>Data Cleaning:</strong>
+- Conducted comprehensive removal of missing values (NAs) to ensure data integrity and accuracy
+- Employed rigorous data validation techniques to identify and eliminate unreliable or inconsistent data points
+
+<strong>Feature Selection:</strong>
+- Implemented strategic removal of unnecessary columns to streamline the dataset and enhance computational efficiency
+- Leveraged domain knowledge and statistical analysis to identify and retain only the most relevant features for analysis
+
+<strong>Column Standardization:</strong>
+- Executed systematic column renaming to establish a standardized naming convention
+- Enhanced dataset clarity and interpretability by assigning descriptive and intuitive names to each column
+
+<strong>Data Integration:</strong>
+- Performed seamless merging of disparate datasets to create a unified and comprehensive analytical framework
+- Incorporated advanced data integration techniques to combine information from multiple sources and enhance the depth and breadth of analysis
+
+<h2>Data Modeling:</h2>
+
+<strong>a. Panel OLS</strong>
+- Utilized Panel OLS regression to analyze the effect of carbon tax policy
+- Examined the relationship between carbon tax implementation and CO2 emissions across multiple countries
+- Incorporated time-series and cross-sectional data to account for both within-country and between-country variations
+
+<strong>b. Exponential Smoothing</strong>
+- Applied Exponential Smoothing technique for forecasting CO2 emissions trends
+- Captured the underlying patterns and trends in the data while minimizing the impact of random fluctuations
+- Utilized this method to generate short-term forecasts of CO2 emissions based on historical data
+
+<strong>c. XGBoost</strong>
+- Implemented XGBoost algorithm for predicting future CO2 emissions
+- Leveraged the ensemble learning technique to build a powerful predictive model
+- Tuned hyperparameters and optimized the model's performance to achieve accurate forecasts
 
 *Projects*
 
