@@ -45,7 +45,7 @@
 - Leveraged the ensemble learning technique to build a powerful predictive model
 - Tuned hyperparameters and optimized the model's performance to achieve accurate forecasts
 
-*Projects*
+<h2 align="left"> Project 2: Plagiarism Detection</h2>
 
 Project 1: 유방암 분류 
 
