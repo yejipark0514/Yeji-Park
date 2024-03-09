@@ -1,3 +1,12 @@
+# 📜 박예지 포트폴리오
+
+> 박예지(Yeji Park) - Yeji Park's Portfolio
+
+<br />
+
+
+
+
 <h1 align="center">Hi 👋, I'm Yeji Park</h1>
 <h3 align="center">A Data Analytics student from Pennsylvania State University</h3>
 <h3 align="center">Languages and Tools:</h3>
