@@ -11,6 +11,9 @@
 > 데이터 분석을 전공하며 커리어패스를 설계하였고
 > 다양한 머신러닝 알고리즘과 딥러닝 프로젝트를 진행하여 데이터 사이언티스트로의 역량을 길렀습니다. 
 
+<h3 align="center">A Data Analytics student from Pennsylvania State University</h3>
+<h3 align="center">Languages and Tools:</h3>
+<p align="center"> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> </p>
 <br />
 
 # 📝Projects
@@ -18,13 +21,37 @@
 
 ## 1. 🚦 Traffic Signs Image Classification
 
-> 딥러닝을 활용한 교통 표지판 이미지 분류 
+> LeNet 아키텍쳐를 활용한 교통 표지판 이미지 분류 
 >
 > - 개발기간 : 2023.12.27 - 2024.02.03
-> - Language & Framework : python | Keras 
+> - Language: python 
 >> 
 >> [프로젝트 상세 설명](https://github.com/yejipark0514/Yeji-Park/blob/main/TrafficSigns_Classification_LeNet.ipynb)  
 <br />
+
+## 2. 👗 Fashion Class Classification 
+
+> CNN을 활용한 패션 클래스 이미즈 분류 
+>
+> - 개발기간 : 2023.11.02 - 2023.12.05
+> - Language : python
+>
+> [프로젝트 상세 설명](https://github.com/yejipark0514/Yeji-Park/blob/main/FashionClass_Classification_Park.ipynb)
+
+<br />
+
+## 3. 📝 Plagiarism Detection
+
+> 표절 탐지기 
+>
+> - 개발기간 : 2022.10.14 - 2022.12.29
+> - 핵심 역할 : Jaccard Similarity와 Cosine Similarity 알고리즘 작성 
+> - Language : python
+>
+> [프로젝트 상세 설명](https://github.com/yejipark0514/Yeji-Park/blob/main/Plagiarism_Detection.ipynb)
+
+<br />
+
 
 <h1 align="center">Hi 👋, I'm Yeji Park</h1>
 <h3 align="center">A Data Analytics student from Pennsylvania State University</h3>
