@@ -65,3 +65,18 @@
 > [프로젝트 상세 설명](https://github.com/yejipark0514/Yeji-Park/blob/main/Plagiarism_Detection.ipynb)
 
 <br />
+
+## 5. 🥊 Kaggle Competition
+
+> 다양한 회귀 분석 방법을 사용하여 가장 낮은 MSE 달성 경연 
+>
+> - 개발기간 : 2024.02.03 - 2024.02.25
+> - 핵심 역할 : 알고리즘 작성 및 최적화된 모델을 찾기 위한 하이퍼파라미터 튜닝 구현
+> - 결과: 56명의 참가자 중 3위 기록 
+> - Language : python
+> - Model: Linear Regression, Ridge Regression, Lasso Regression
+>
+> [프로젝트 상세 설명](https://github.com/yejipark0514/Yeji-Park/blob/main/KaggleCompetition_Regression.ipynb)
+
+<br />
+
