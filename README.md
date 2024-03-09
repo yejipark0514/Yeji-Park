@@ -5,7 +5,28 @@
 <br />
 
 
+# 👋 Intro
 
+> 안녕하세요! ***"목표를 위해 포기하지 않는 인재"*** 박예지입니다!
+> 데이터 분석을 전공하며 커리어패스를 설계하였고
+> 다양한 머신러닝 알고리즘과 딥러닝 프로젝트를 진행하여 데이터 사이언티스트로의 역량을 길렀습니다. 
+
+<br />
+
+# 📝Projects
+
+
+## 1. 🚦 Traffic Signs Image Classification
+
+> 딥러닝을 활용한 교통 표지판 이미지 분류 
+>
+> - 개발기간 : 2023.12.27 - 2024.02.03
+>
+>> Back-end
+>> - Language & Framework : python | Keras 
+>> 
+>> [프로젝트 상세 설명](https://github.com/kimphysicsman/MyLittelTrip_backend)  
+<br />
 
 <h1 align="center">Hi 👋, I'm Yeji Park</h1>
 <h3 align="center">A Data Analytics student from Pennsylvania State University</h3>
