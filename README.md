@@ -50,7 +50,7 @@
 > - Language : python
 > - Model: Exponential Smoothing, XGBoost, SARIMAX
 >
-> [프로젝트 상세 설명](https://github.com/yejipark0514/Yeji-Park/blob/main/Plagiarism_Detection.ipynb)
+
 
 <br />
 
