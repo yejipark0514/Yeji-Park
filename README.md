@@ -21,11 +21,9 @@
 > 딥러닝을 활용한 교통 표지판 이미지 분류 
 >
 > - 개발기간 : 2023.12.27 - 2024.02.03
->
->> Back-end
->> - Language & Framework : python | Keras 
+> - Language & Framework : python | Keras 
 >> 
->> [프로젝트 상세 설명](https://github.com/kimphysicsman/MyLittelTrip_backend)  
+>> [프로젝트 상세 설명](https://github.com/yejipark0514/Yeji-Park/blob/main/TrafficSigns_Classification_LeNet.ipynb)  
 <br />
 
 <h1 align="center">Hi 👋, I'm Yeji Park</h1>
