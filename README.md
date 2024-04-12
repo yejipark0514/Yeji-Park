@@ -87,6 +87,7 @@
 > - 결과: 56명의 참가자 중 3위 기록 
 > - Language : python
 > - Model: Linear Regression, Ridge Regression, Lasso Regression
+>   
 > [프로젝트 상세 설명](https://github.com/yejipark0514/Yeji-Park/blob/main/KaggleCompetition_Regression.ipynb)
 
 <br />
@@ -101,6 +102,7 @@
 > - 결과: 56명의 참가자 중 2위 기록 
 > - Language : python
 > - Model: Logistic Regression, Naive Bayes, KNN, Random Forest, Decision Tree, SVM, Ensemble Learning, XGBoost, Gradient Boosting
+>   
 > [프로젝트 상세 설명](https://github.com/yejipark0514/Yeji-Park/blob/main/KaggleCompetition_Classification.ipynb)
 
 <br />
