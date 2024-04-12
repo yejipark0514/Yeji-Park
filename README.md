@@ -48,11 +48,9 @@
 >
 > - 개발기간 : 2024.01.10 - 현재
 > - Language : python
-> - Model: Exponential Smoothing, XGBoost, SARIMAX
+> - Model: Exponential Smoothing, XGBoost, SARIMAX, Regression 
 >
-
-
-
+> [프로젝트 상세 설명](https://github.com/yejipark0514/TimeSeriesAnalysis_CO2)
 
 <br />
 
@@ -79,6 +77,23 @@
 > - Model: Linear Regression, Ridge Regression, Lasso Regression
 >
 > [프로젝트 상세 설명](https://github.com/yejipark0514/Yeji-Park/blob/main/KaggleCompetition_Regression.ipynb)
+
+<br />
+
+
+## 6. 🥊 Kaggle Competition 2
+
+> 다양한 분류 분석 방법을 사용하여 가장 높은 ROC 달성 경연 
+>
+> - 개발기간 : 2024.03.05 - 2024.03.31
+> - 핵심 역할 : 데이터 전처리 후 알고리즘 작성 및 최적화된 모델을 찾기 위한 하이퍼파라미터 튜닝 구현
+> - 결과: 56명의 참가자 중 2위 기록 
+> - Language : python
+> - Model: 
+> - Logistic Regression,Naive Bayes, KNN, Random Forest, Decision Tree, SVM, Ensemble Learning, XGBoost, Gradient Boosting
+
+>
+> [프로젝트 상세 설명](https://github.com/yejipark0514/Yeji-Park/blob/main/KaggleCompetition_Classification.ipynb)
 
 <br />
 
