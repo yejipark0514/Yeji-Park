@@ -42,7 +42,7 @@
 
 <br />
 
-## 3. 📝 CO2 Emissions Forecasting
+## 3. 🌫️ CO2 Emissions Forecasting
 
 > 시계열분석 모델을 활용하여 미국의 미래 10년 CO2 배출량 예측
 >
@@ -66,34 +66,52 @@
 
 <br />
 
-## 5. 🥊 Kaggle Competition 1 
+## 5. 💧 Predicting pH after Extreme Weather Events
+
+>  기상 사건 후 수질 변화 분석 on HPC
+>
+> - 개발기간 : 2024.03.05 - 2024.04.15
+> - 핵심 역할 : 데이터 전처리, 데이터 모델링 
+> - Language : PySpark
+> - Model: Multivariate Linear Regression, Decision Tree, Random Forest, Gradient Boosting 
+>
+
+
+<br />
+
+## 6. 🥊 Kaggle Competition 1 
 
 > 다양한 회귀 분석 방법을 사용하여 가장 낮은 MSE 달성 경연 
->
 > - 개발기간 : 2024.02.03 - 2024.02.25
 > - 핵심 역할 : 알고리즘 작성 및 최적화된 모델을 찾기 위한 하이퍼파라미터 튜닝 구현
 > - 결과: 56명의 참가자 중 3위 기록 
 > - Language : python
 > - Model: Linear Regression, Ridge Regression, Lasso Regression
->
 > [프로젝트 상세 설명](https://github.com/yejipark0514/Yeji-Park/blob/main/KaggleCompetition_Regression.ipynb)
 
 <br />
 
 
-## 6. 🥊 Kaggle Competition 2
+## 7. 🥊 Kaggle Competition 2
 
-> 다양한 분류 분석 방법을 사용하여 가장 높은 ROC 달성 경연 
+> 다양한 분류 알고리즘을 사용하여 가장 높은 ROC 달성 경연 
 >
 > - 개발기간 : 2024.03.05 - 2024.03.31
 > - 핵심 역할 : 데이터 전처리 후 알고리즘 작성 및 최적화된 모델을 찾기 위한 하이퍼파라미터 튜닝 구현
 > - 결과: 56명의 참가자 중 2위 기록 
 > - Language : python
-> - Model: 
-> - Logistic Regression,Naive Bayes, KNN, Random Forest, Decision Tree, SVM, Ensemble Learning, XGBoost, Gradient Boosting
-
->
+> - Model: Logistic Regression, Naive Bayes, KNN, Random Forest, Decision Tree, SVM, Ensemble Learning, XGBoost, Gradient Boosting
 > [프로젝트 상세 설명](https://github.com/yejipark0514/Yeji-Park/blob/main/KaggleCompetition_Classification.ipynb)
 
 <br />
 
+## 8. 🥊 Kaggle Competition 3
+
+> 다양한 분류, 클러스터링 알고리즘을 사용하여 가장 높은 F-Score 달성 경연 
+>
+> - 개발기간 : 2024.04.01 - 2024.04,28
+> - 핵심 역할 : 데이터 전처리 후 알고리즘 작성 및 최적화된 모델을 찾기 위한 하이퍼파라미터 튜닝 구현
+> - 결과: 진행중 
+> - Language : python
+
+<br />
