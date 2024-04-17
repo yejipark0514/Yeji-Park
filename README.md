@@ -46,7 +46,7 @@
 
 > 시계열분석 모델을 활용하여 미국의 미래 10년 CO2 배출량 예측
 >
-> - 개발기간 : 2024.01.10 - 현재
+> - 개발기간 : 2024.01.10 - 2024.04.03
 > - Language : python
 > - Model: Panel OLS, Exponential Smoothing, Lasso Regression, Ridge Regression
 >
