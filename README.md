@@ -48,7 +48,7 @@
 >
 > - 개발기간 : 2024.01.10 - 현재
 > - Language : python
-> - Model: Exponential Smoothing, XGBoost, SARIMAX, Regression 
+> - Model: Panel OLS, Exponential Smoothing, Lasso Regression, Ridge Regression
 >
 > [프로젝트 상세 설명](https://github.com/yejipark0514/TimeSeriesAnalysis_CO2)
 
