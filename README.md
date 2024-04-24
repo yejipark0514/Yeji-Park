@@ -21,7 +21,19 @@
 # 📝Projects
 
 
-## 1. 🚦 Traffic Signs Image Classification
+## 1. 🌫️ CO2 Emissions Forecasting
+
+> 시계열분석 모델을 활용하여 미국의 미래 10년 CO2 배출량 예측
+>
+> - 개발기간 : 2024.01.10 - 2024.04.03
+> - Language : python
+> - Model: Panel OLS, Exponential Smoothing, Lasso Regression, Ridge Regression
+>
+> [프로젝트 상세 설명](https://github.com/yejipark0514/TimeSeriesAnalysis_CO2)
+
+<br />
+
+## 2. 🚦 Traffic Signs Image Classification
 
 > LeNet 아키텍쳐를 활용한 교통 표지판 이미지 분류 
 >
@@ -31,7 +43,7 @@
 >> [프로젝트 상세 설명](https://github.com/yejipark0514/Yeji-Park/blob/main/TrafficSigns_Classification_LeNet.ipynb)  
 <br />
 
-## 2. 👗 Fashion Class Classification 
+## 3. 👗 Fashion Class Classification 
 
 > CNN을 활용한 패션 클래스 이미즈 분류 
 >
@@ -39,18 +51,6 @@
 > - Language : python
 >
 > [프로젝트 상세 설명](https://github.com/yejipark0514/Yeji-Park/blob/main/FashionClass_Classification_Park.ipynb)
-
-<br />
-
-## 3. 🌫️ CO2 Emissions Forecasting
-
-> 시계열분석 모델을 활용하여 미국의 미래 10년 CO2 배출량 예측
->
-> - 개발기간 : 2024.01.10 - 2024.04.03
-> - Language : python
-> - Model: Panel OLS, Exponential Smoothing, Lasso Regression, Ridge Regression
->
-> [프로젝트 상세 설명](https://github.com/yejipark0514/TimeSeriesAnalysis_CO2)
 
 <br />
 
