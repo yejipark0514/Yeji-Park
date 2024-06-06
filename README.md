@@ -33,7 +33,16 @@
 
 <br />
 
-## 2. 🚦 Traffic Signs Image Classification
+## 2. 🌫️ 2024 기상청 빅데이터 콘테스트 
+
+> 기상현상과 화재발생에 대한 상관분석 
+>
+> - 개발기간 : 2024.06 - 진행중 
+> - Language : python
+
+<br />
+
+## 3. 🚦 Traffic Signs Image Classification
 
 > LeNet 아키텍쳐를 활용한 교통 표지판 이미지 분류 
 >
@@ -43,7 +52,7 @@
 >> [프로젝트 상세 설명](https://github.com/yejipark0514/Yeji-Park/blob/main/TrafficSigns_Classification_LeNet.ipynb)  
 <br />
 
-## 3. 👗 Fashion Class Classification 
+## 4. 👗 Fashion Class Classification 
 
 > CNN을 활용한 패션 클래스 이미즈 분류 
 >
@@ -54,7 +63,7 @@
 
 <br />
 
-## 4. 📝 Plagiarism Detection
+## 5. 📝 Plagiarism Detection
 
 > 표절 탐지기 
 >
@@ -66,7 +75,7 @@
 
 <br />
 
-## 5. 💧 Predicting pH after Extreme Weather Events
+## 6. 💧 Predicting pH after Extreme Weather Events
 
 >  기상 사건 후 수질 변화 분석 on HPC
 >
@@ -82,7 +91,7 @@
 
 <br />
 
-## 6. 🥊 Kaggle Competition 1 
+## 7. 🥊 Kaggle Competition 1 
 
 > 다양한 회귀 분석 방법을 사용하여 가장 낮은 MSE 달성 경연 
 > - 개발기간 : 2024.02.03 - 2024.02.25
@@ -96,7 +105,7 @@
 <br />
 
 
-## 7. 🥊 Kaggle Competition 2
+## 8. 🥊 Kaggle Competition 2
 
 > 다양한 분류 알고리즘을 사용하여 가장 높은 ROC 달성 경연 
 >
@@ -110,7 +119,7 @@
 
 <br />
 
-## 8. 🥊 Kaggle Competition 3
+## 9. 🥊 Kaggle Competition 3
 
 > 다양한 분류, 클러스터링 알고리즘을 사용하여 가장 높은 F-Score 달성 경연 
 >
